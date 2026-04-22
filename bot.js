@@ -1,3 +1,13 @@
+
+const http = require("http");
+
+http.createServer((req, res) => {
+  res.write("Bot is alive");
+  res.end();
+}).listen(3000);
+
+// নিচে তোমার bot code
+
 const TelegramBot = require("node-telegram-bot-api");
 
 const token = "8725404047:AAGAE5rWF5q7BM38u_1pNRJAHM9OoqczKv0"; // 🔴 নিজের token বসাও
