@@ -13,7 +13,7 @@ const TelegramBot = require("node-telegram-bot-api");
 const token = "8725404047:AAGAE5rWF5q7BM38u_1pNRJAHM9OoqczKv0"; // 🔴 নিজের token বসাও
 
 // 🔴 Main Group ID
-const MAIN_GROUP_ID = -1002950438348;
+const MAIN_GROUP_ID = -1002029141138;
 
 // 🔵 Log Channel ID
 const LOG_CHANNEL_ID = -1003921095881;
